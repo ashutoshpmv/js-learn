@@ -17,3 +17,17 @@ console.log(typeof undefined);
 
 //typeof(null)--->> object
 //typeof(undefined)--->> undefined
+
+//TYPECASTING
+let num="4"
+console.log(typeof num);
+let numInt=Number(num)
+console.log(typeof numInt);
+console.log(numInt);
+
+//if in place of "4", "4ab" is written then we get NaN as output
+
+//TYPE-CONVERSION TO BOOLEAN
+//1=>true  0=>false
+// ""=>false  "ashu"=>true
+
