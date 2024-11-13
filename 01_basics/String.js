@@ -31,3 +31,20 @@ console.log(name11.slice(-3, 4));
 //but--
 console.log(name11.slice(-7, 4));   //-7 is s in ASHUTOSH  and 4 is t so, result- shu
 
+const trimExample="   ASHUTOSH.    "
+console.log(trimExample.trim());
+
+const url="ashutosh@gmail.com"
+console.log(url.replace("gmail.com","yahoo.com"));
+
+//check whether a substring is present or not
+console.log(name11.includes("Ashu"))   //true
+console.log(name11.includes("Ashi"))    //false
+
+//string to array otbo some character, here @
+const exam="Ashu@Abhishek@Anita@Vishnu@RamBriksh@Jailashi@Shambhu";
+console.log(exam.split('@'));
+
+
+
+
