@@ -16,4 +16,18 @@ console.log(name.toUpperCase());
 string methods --
 1. .charAt(1);
 2. .indexOf('s');
+3. .substring(0,4)    0->3 tak bas hoga
+
 */
+const name11 = "Ashutosh";
+console.log(name11.slice(-3, 4));
+   
+// -3 as the start index: In JavaScript, a negative start index means it starts counting from the end of the string. Here, -3 points to the third character from the end, which is "o" in "Ashutosh".
+
+// 4 as the end index: slice extracts up to, but not including, the character at the end index. So, it will stop at index 4 (where slice considers only the characters from index 0 to 3).
+
+//When slice detects that the start index is after the end index, it returns an empty string because there’s no valid range to extract.
+
+//but--
+console.log(name11.slice(-7, 4));   //-7 is s in ASHUTOSH  and 4 is t so, result- shu
+
