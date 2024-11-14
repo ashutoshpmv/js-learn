@@ -12,7 +12,7 @@ console.log(num2.toString().length);
 console.log(num2.toFixed(3));  //200.000
 
 const newNum=123.8966
-console.log(newNum.toPrecision(3)); //124
+console.log(newNum.toPrecision(3)); //124   returns a string
 
 //set zeros COMMA a/c to US/INDIA SYSTEM.
 const hundreds=1000000000;
