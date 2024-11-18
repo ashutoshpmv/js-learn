@@ -17,6 +17,11 @@ const newFamily=[...familyA,...familyB]
 console.log(newFamily);
 //same output as above and THIS IS USED MORE FREQUENTLY and we can join more than >2 arrays but not in concat
 
+//EXPAND ALL ARRAY INSIDE ARRAY.
+let nestedArray=[1,2,3,[4,5,6],[7,8,[9,10,11],12],13]
+console.log(nestedArray.flat(Infinity));    //we can define values also inplace of infinity. 
+console.log(nestedArray.flat(1)); //[ 1, 2, 3, 4, 5, 6, 7, 8, [ 9, 10, 11 ], 12, 13 ]
+
 
 
 
