@@ -30,6 +30,18 @@ const arrayToString=myArr1.join()   //Array-->String  .join
 console.log(arrayToString);
 console.log(typeof arrayToString);  //string
 
+//STRING/OBJECT----->>ARRAY
+let strToArray=Array.from('Ashutosh')
+console.log(strToArray);
+//check whether it is array or not
+console.log(Array.isArray(strToArray));
+//for key/values/objects==>> returns an empty array bcz we need to define whose array we need to make.
+let score1=100
+let score2=200
+let score3=300
+console.log(Array.of(score1,score2,score3));
+
+
 //SLICE vs SPLICE
 let arr=[1,2,3,4,5,6]
 console.log("Before Slice : ",arr);
